@@ -33,7 +33,7 @@ def main(args):
     tokenizer = AutoTokenizer.from_pretrained(args.tokenizer)
     tokenizer.pad_token = tokenizer.eos_token
     
-    dataset = CustomDataset("/root/Korean_CCI_2024/resource/data/대화맥락추론_test.json", tokenizer)
+    dataset = CustomDataset("/root/Korean_CCI_2024_Wittgenstein/resource/data/대화맥락추론_test.json", tokenizer)
 
     answer_dict = {
         0: "inference_1",
@@ -41,7 +41,7 @@ def main(args):
         2: "inference_3",
     }
 
-    with open("/root/Korean_CCI_2024/resource/data/대화맥락추론_test.json", "r") as f:
+    with open("/root/Korean_CCI_2024_Wittgenstein/resource/data/대화맥락추론_test.json", "r") as f:
         result = json.load(f)
 
     for idx in tqdm.tqdm(range(len(dataset))):
