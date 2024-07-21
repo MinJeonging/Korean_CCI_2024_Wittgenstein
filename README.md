@@ -64,6 +64,51 @@ src
 ```
 
 ## 실행 방법 (How to Run)
+
+### Python 3.10 환경 구축 (Setup Python 3.10 Environment)
+리눅스(Vessl) 환경에서 Python 3.10을 설치하고 가상환경을 설정하려면 아래 명령어를 사용하세요:
+
+#### 리눅스(Vessl)에서 Python 3.10 설치 및 가상환경 설정
+1. 패키지 목록 업데이트:
+    ```bash
+    apt update
+    ```
+
+2. 필요한 소프트웨어 설치:
+    ```bash
+    apt install software-properties-common -y
+    ```
+
+3. PPA 저장소 추가:
+    ```bash
+    add-apt-repository ppa:deadsnakes/ppa -y
+    ```
+
+4. Python 3.10 설치:
+    ```bash
+    apt install python3.10
+    ```
+
+5. Python 3.10 venv 모듈 설치:
+    ```bash
+    apt install python3.10-venv
+    ```
+
+6. 가상환경 생성:
+    ```bash
+    python3.10 -m venv venv3.10
+    ```
+
+7. 가상환경 활성화:
+    ```bash
+    source venv3.10/bin/activate
+    ```
+
+8. 필요 패키지 설치:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 ### 학습 (Train)
 ```
 CUDA_VISIBLE_DEVICES=1,3 python -m run.train \
@@ -83,9 +128,7 @@ python -m run.test \
     --device cuda:0
 ```
 
-
 ## Reference
 huggingface/transformers (https://github.com/huggingface/transformers)  
 Bllossome (Teddysum) (https://huggingface.co/MLP-KTLim/llama-3-Korean-Bllossom-8B)  
 국립국어원 인공지능 (AI)말평 (https://kli.korean.go.kr/benchmark)  
-
