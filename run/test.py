@@ -44,6 +44,9 @@ def main(args):
     with open("/root/Korean_CCI_2024_Wittgenstein/resource/data/대화맥락추론_test.json", "r") as f:
         result = json.load(f)
 
+    correct_results = []
+    incorrect_results = []
+
     for idx in tqdm.tqdm(range(len(dataset))):
         inp, _ = dataset[idx]
         try:
@@ -74,10 +77,29 @@ def main(args):
             .numpy()
         )
 
-        result[idx]["output"] = answer_dict[numpy.argmax(probs)]
+        predicted_label = answer_dict[numpy.argmax(probs)]
+        original_label = result[idx].get("output")
+        result[idx]["output"] = predicted_label
+
+        entry_with_labels = result[idx].copy()
+        entry_with_labels["predicted_output"] = predicted_label
+        if original_label is not None:
+            entry_with_labels["original_output"] = original_label
+            if original_label == predicted_label:
+                correct_results.append(entry_with_labels)
+            else:
+                incorrect_results.append(entry_with_labels)
 
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(json.dumps(result, ensure_ascii=False, indent=4))
+    
+    if correct_results:
+        with open(args.output.replace(".json", "_correct.json"), "w", encoding="utf-8") as f:
+            f.write(json.dumps(correct_results, ensure_ascii=False, indent=4))
+
+    if incorrect_results:
+        with open(args.output.replace(".json", "_incorrect.json"), "w", encoding="utf-8") as f:
+            f.write(json.dumps(incorrect_results, ensure_ascii=False, indent=4))
 
 
 if __name__ == "__main__":
