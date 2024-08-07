@@ -1,0 +1,2821 @@
+[
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000121",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "오늘 덥지요..ㅎ\n비온 뒤로 쌀쌀해질지 알았는데 아니네요.",
+                    "utterance_id": "MDRW2100040108.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "그르게요!!! 가을이 좀 오나 했더니만 다시 여름날씨 예요 ㅠ",
+                    "utterance_id": "MDRW2100040108.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아직 반팔 정리 못했고, 하기도 싫었는데\n잘됐다싶기도 하네요.ㅎ",
+                    "utterance_id": "MDRW2100040108.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "왠지 추석전까진 계속 더울거 같아요~",
+                    "utterance_id": "MDRW2100040108.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "그래도 추석 연휴 전에는 긴옷을 꺼낼래요.\n연휴기간에 옷정리하기엔.. ㅎ\n추석 기간에 날씨가 좋았음 좋겠네요.",
+                    "utterance_id": "MDRW2100040108.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "보통 추석 지나면 갑자기 확 쌀쌀해지더라고요 ㅎㅎ 딱 분기점인거 같아요",
+                    "utterance_id": "MDRW2100040108.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "가을옷 항상 없는 느낌 들지 않나요? ㅋㅋ",
+                    "utterance_id": "MDRW2100040108.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "그러니깐요. ㅋ\n옷차림 생각하면 1개 계절만 있었음 좋겠네요.",
+                    "utterance_id": "MDRW2100040108.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "진짜 가을옷은 사는 게 너무 애매하더라고요 ㅋㅋ 여름은 그나마 옷도 가볍고 싸게 살 수 있는데",
+                    "utterance_id": "MDRW2100040108.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "여름 옷에 가디건을 걸치는 게 낫겠다 싶더라구요.",
+                    "utterance_id": "MDRW2100040108.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "맞아요 가디건이나 셔츠 같은거 그냥 걸쳐입는 게 무난한 것 같네요",
+                    "utterance_id": "MDRW2100040108.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "미국 뉴욕 허리케인 강타 뉴스 보셨나요;",
+                    "utterance_id": "MDRW2100040108.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아 그거 사진만 봤는데 비까지 와서 잠기고 난리났던데요 ㄷㄷ",
+                    "utterance_id": "MDRW2100040108.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네.. 복구도 힘들겠더라구요.",
+                    "utterance_id": "MDRW2100040108.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "미국은 복구 엄청 오래 걸린다네요.. 우리나라처럼 바로바로 고치고 이런 게 어렵다고",
+                    "utterance_id": "MDRW2100040108.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100040108.1.8"
+            ],
+            "category": "원인",
+            "inference_1": "화자1은 가을옷을 구매하였다.",
+            "inference_2": "화자1은 가을 날씨를 선호한다.",
+            "inference_3": "화자1은 가을옷이 마땅치 않다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000122",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "오늘 덥지요..ㅎ\n비온 뒤로 쌀쌀해질지 알았는데 아니네요.",
+                    "utterance_id": "MDRW2100040108.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "그르게요!!! 가을이 좀 오나 했더니만 다시 여름날씨 예요 ㅠ",
+                    "utterance_id": "MDRW2100040108.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아직 반팔 정리 못했고, 하기도 싫었는데\n잘됐다싶기도 하네요.ㅎ",
+                    "utterance_id": "MDRW2100040108.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "왠지 추석전까진 계속 더울거 같아요~",
+                    "utterance_id": "MDRW2100040108.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "그래도 추석 연휴 전에는 긴옷을 꺼낼래요.\n연휴기간에 옷정리하기엔.. ㅎ\n추석 기간에 날씨가 좋았음 좋겠네요.",
+                    "utterance_id": "MDRW2100040108.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "보통 추석 지나면 갑자기 확 쌀쌀해지더라고요 ㅎㅎ 딱 분기점인거 같아요",
+                    "utterance_id": "MDRW2100040108.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "가을옷 항상 없는 느낌 들지 않나요? ㅋㅋ",
+                    "utterance_id": "MDRW2100040108.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "그러니깐요. ㅋ\n옷차림 생각하면 1개 계절만 있었음 좋겠네요.",
+                    "utterance_id": "MDRW2100040108.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "진짜 가을옷은 사는 게 너무 애매하더라고요 ㅋㅋ 여름은 그나마 옷도 가볍고 싸게 살 수 있는데",
+                    "utterance_id": "MDRW2100040108.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "여름 옷에 가디건을 걸치는 게 낫겠다 싶더라구요.",
+                    "utterance_id": "MDRW2100040108.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "맞아요 가디건이나 셔츠 같은거 그냥 걸쳐입는 게 무난한 것 같네요",
+                    "utterance_id": "MDRW2100040108.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "미국 뉴욕 허리케인 강타 뉴스 보셨나요;",
+                    "utterance_id": "MDRW2100040108.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아 그거 사진만 봤는데 비까지 와서 잠기고 난리났던데요 ㄷㄷ",
+                    "utterance_id": "MDRW2100040108.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네.. 복구도 힘들겠더라구요.",
+                    "utterance_id": "MDRW2100040108.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "미국은 복구 엄청 오래 걸린다네요.. 우리나라처럼 바로바로 고치고 이런 게 어렵다고",
+                    "utterance_id": "MDRW2100040108.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100040108.1.8"
+            ],
+            "category": "동기",
+            "inference_1": "화자1은 계절마다 다양한 옷을 입는 것이 신난다.",
+            "inference_2": "화자1은 매일 옷을 달리 입는 것이 귀찮다.",
+            "inference_3": "화자1은 계절마다 옷을 바꿔 입는 것이 귀찮다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000123",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "오늘 덥지요..ㅎ\n비온 뒤로 쌀쌀해질지 알았는데 아니네요.",
+                    "utterance_id": "MDRW2100040108.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "그르게요!!! 가을이 좀 오나 했더니만 다시 여름날씨 예요 ㅠ",
+                    "utterance_id": "MDRW2100040108.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아직 반팔 정리 못했고, 하기도 싫었는데\n잘됐다싶기도 하네요.ㅎ",
+                    "utterance_id": "MDRW2100040108.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "왠지 추석전까진 계속 더울거 같아요~",
+                    "utterance_id": "MDRW2100040108.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "그래도 추석 연휴 전에는 긴옷을 꺼낼래요.\n연휴기간에 옷정리하기엔.. ㅎ\n추석 기간에 날씨가 좋았음 좋겠네요.",
+                    "utterance_id": "MDRW2100040108.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "보통 추석 지나면 갑자기 확 쌀쌀해지더라고요 ㅎㅎ 딱 분기점인거 같아요",
+                    "utterance_id": "MDRW2100040108.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "가을옷 항상 없는 느낌 들지 않나요? ㅋㅋ",
+                    "utterance_id": "MDRW2100040108.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "그러니깐요. ㅋ\n옷차림 생각하면 1개 계절만 있었음 좋겠네요.",
+                    "utterance_id": "MDRW2100040108.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "진짜 가을옷은 사는 게 너무 애매하더라고요 ㅋㅋ 여름은 그나마 옷도 가볍고 싸게 살 수 있는데",
+                    "utterance_id": "MDRW2100040108.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "여름 옷에 가디건을 걸치는 게 낫겠다 싶더라구요.",
+                    "utterance_id": "MDRW2100040108.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "맞아요 가디건이나 셔츠 같은거 그냥 걸쳐입는 게 무난한 것 같네요",
+                    "utterance_id": "MDRW2100040108.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "미국 뉴욕 허리케인 강타 뉴스 보셨나요;",
+                    "utterance_id": "MDRW2100040108.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아 그거 사진만 봤는데 비까지 와서 잠기고 난리났던데요 ㄷㄷ",
+                    "utterance_id": "MDRW2100040108.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네.. 복구도 힘들겠더라구요.",
+                    "utterance_id": "MDRW2100040108.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "미국은 복구 엄청 오래 걸린다네요.. 우리나라처럼 바로바로 고치고 이런 게 어렵다고",
+                    "utterance_id": "MDRW2100040108.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100040108.1.8"
+            ],
+            "category": "전제",
+            "inference_1": "매 계절마다 옷차림이 비슷하다.",
+            "inference_2": "매 계절마다 옷차림이 애매하다.",
+            "inference_3": "매 계절마다 옷차림이 상이하다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000124",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "오늘 덥지요..ㅎ\n비온 뒤로 쌀쌀해질지 알았는데 아니네요.",
+                    "utterance_id": "MDRW2100040108.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "그르게요!!! 가을이 좀 오나 했더니만 다시 여름날씨 예요 ㅠ",
+                    "utterance_id": "MDRW2100040108.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아직 반팔 정리 못했고, 하기도 싫었는데\n잘됐다싶기도 하네요.ㅎ",
+                    "utterance_id": "MDRW2100040108.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "왠지 추석전까진 계속 더울거 같아요~",
+                    "utterance_id": "MDRW2100040108.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "그래도 추석 연휴 전에는 긴옷을 꺼낼래요.\n연휴기간에 옷정리하기엔.. ㅎ\n추석 기간에 날씨가 좋았음 좋겠네요.",
+                    "utterance_id": "MDRW2100040108.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "보통 추석 지나면 갑자기 확 쌀쌀해지더라고요 ㅎㅎ 딱 분기점인거 같아요",
+                    "utterance_id": "MDRW2100040108.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "가을옷 항상 없는 느낌 들지 않나요? ㅋㅋ",
+                    "utterance_id": "MDRW2100040108.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "그러니깐요. ㅋ\n옷차림 생각하면 1개 계절만 있었음 좋겠네요.",
+                    "utterance_id": "MDRW2100040108.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "진짜 가을옷은 사는 게 너무 애매하더라고요 ㅋㅋ 여름은 그나마 옷도 가볍고 싸게 살 수 있는데",
+                    "utterance_id": "MDRW2100040108.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "여름 옷에 가디건을 걸치는 게 낫겠다 싶더라구요.",
+                    "utterance_id": "MDRW2100040108.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "맞아요 가디건이나 셔츠 같은거 그냥 걸쳐입는 게 무난한 것 같네요",
+                    "utterance_id": "MDRW2100040108.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "미국 뉴욕 허리케인 강타 뉴스 보셨나요;",
+                    "utterance_id": "MDRW2100040108.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아 그거 사진만 봤는데 비까지 와서 잠기고 난리났던데요 ㄷㄷ",
+                    "utterance_id": "MDRW2100040108.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네.. 복구도 힘들겠더라구요.",
+                    "utterance_id": "MDRW2100040108.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "미국은 복구 엄청 오래 걸린다네요.. 우리나라처럼 바로바로 고치고 이런 게 어렵다고",
+                    "utterance_id": "MDRW2100040108.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100040108.1.8"
+            ],
+            "category": "반응",
+            "inference_1": "화자2는 가을옷을 사는 게 아깝다.",
+            "inference_2": "화자2는 가을옷을 꺼내는 게 아쉽다.",
+            "inference_3": "화자2는 여름옷을 구매하는 것이 아깝다."
+        },
+        "output": "inference_1"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000125",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "오늘 덥지요..ㅎ\n비온 뒤로 쌀쌀해질지 알았는데 아니네요.",
+                    "utterance_id": "MDRW2100040108.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "그르게요!!! 가을이 좀 오나 했더니만 다시 여름날씨 예요 ㅠ",
+                    "utterance_id": "MDRW2100040108.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아직 반팔 정리 못했고, 하기도 싫었는데\n잘됐다싶기도 하네요.ㅎ",
+                    "utterance_id": "MDRW2100040108.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "왠지 추석전까진 계속 더울거 같아요~",
+                    "utterance_id": "MDRW2100040108.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "그래도 추석 연휴 전에는 긴옷을 꺼낼래요.\n연휴기간에 옷정리하기엔.. ㅎ\n추석 기간에 날씨가 좋았음 좋겠네요.",
+                    "utterance_id": "MDRW2100040108.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "보통 추석 지나면 갑자기 확 쌀쌀해지더라고요 ㅎㅎ 딱 분기점인거 같아요",
+                    "utterance_id": "MDRW2100040108.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "가을옷 항상 없는 느낌 들지 않나요? ㅋㅋ",
+                    "utterance_id": "MDRW2100040108.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "그러니깐요. ㅋ\n옷차림 생각하면 1개 계절만 있었음 좋겠네요.",
+                    "utterance_id": "MDRW2100040108.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "진짜 가을옷은 사는 게 너무 애매하더라고요 ㅋㅋ 여름은 그나마 옷도 가볍고 싸게 살 수 있는데",
+                    "utterance_id": "MDRW2100040108.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "여름 옷에 가디건을 걸치는 게 낫겠다 싶더라구요.",
+                    "utterance_id": "MDRW2100040108.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "맞아요 가디건이나 셔츠 같은거 그냥 걸쳐입는 게 무난한 것 같네요",
+                    "utterance_id": "MDRW2100040108.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "미국 뉴욕 허리케인 강타 뉴스 보셨나요;",
+                    "utterance_id": "MDRW2100040108.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아 그거 사진만 봤는데 비까지 와서 잠기고 난리났던데요 ㄷㄷ",
+                    "utterance_id": "MDRW2100040108.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네.. 복구도 힘들겠더라구요.",
+                    "utterance_id": "MDRW2100040108.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "미국은 복구 엄청 오래 걸린다네요.. 우리나라처럼 바로바로 고치고 이런 게 어렵다고",
+                    "utterance_id": "MDRW2100040108.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100040108.1.8"
+            ],
+            "category": "후행사건",
+            "inference_1": "화자2는 가을에 입을 민소매 옷을 구비할 것이다.",
+            "inference_2": "화자2는 가을에 입었던 카디건을 중고 거래할 것이다.",
+            "inference_3": "화자2는 가을에 입을 카디건을 구매할 것이다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000126",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "기숙사나 자취 경험이 있으신가요?",
+                    "utterance_id": "MDRW2100015001.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "기숙사 경험은 없는데 자취경험, 동거경험은 있어요!",
+                    "utterance_id": "MDRW2100015001.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "룸메이트분과는 원만하셨나요?",
+                    "utterance_id": "MDRW2100015001.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "딱히 싸운 기억은 그리 많지 않아요. 싸웠다고 해도 크게 싸운것도 아니고 그냥 작은 다툼정도였는데 살면서 안 부딪치는건 쉽지 않을테니까 원만하게 잘 보냈다고 볼 수 있겠네요!",
+                    "utterance_id": "MDRW2100015001.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "생활 패턴이 크게 다으지 않으셨나봐요!",
+                    "utterance_id": "MDRW2100015001.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "생활 패턴도 비슷했지만 다를 때는 얼굴도 잘 못 볼 정도로 달라서 그랬던것 같아요",
+                    "utterance_id": "MDRW2100015001.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "name1님은 자취나 동거 경험 있으신가요??",
+                    "utterance_id": "MDRW2100015001.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "기숙사에 살아본 적은 있어요",
+                    "utterance_id": "MDRW2100015001.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "오! 기숙사 생활은 어때요??",
+                    "utterance_id": "MDRW2100015001.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "청소데이나 통금 제외하고는 할만했어요ㅎㅎ",
+                    "utterance_id": "MDRW2100015001.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "청소데이는 뭐에요??",
+                    "utterance_id": "MDRW2100015001.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "모든 기숙사생들이 청소하고 각 층장에게 검사를 받는 날이에요",
+                    "utterance_id": "MDRW2100015001.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "층장에게 통과받지 못하면 통과받을때까지 다시 해야하는건가요?ㅠㅠ",
+                    "utterance_id": "MDRW2100015001.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네네ㅠㅠ 그래서 싫어했어요..",
+                    "utterance_id": "MDRW2100015001.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "허어ㅠㅠㅠㅠ 생각만으로도 너무 끔찍하네요ㅠㅠ 저였어도 너무 싫어서 외출이든 뭐든 빠져나올 방법이 없는지 열심히 생각했을 것 같네요ㅠㅠ",
+                    "utterance_id": "MDRW2100015001.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100015001.1.10"
+            ],
+            "category": "원인",
+            "inference_1": "화자1은 청소데이가 있어 기숙사 생활이 좋았다.",
+            "inference_2": "화자1은 기숙사의 통금 시간을 맞추기 힘들었다.",
+            "inference_3": "화자1은 부모님이 정한 통금 시간을 지키기 힘들었다."
+        },
+        "output": "inference_2"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000127",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "기숙사나 자취 경험이 있으신가요?",
+                    "utterance_id": "MDRW2100015001.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "기숙사 경험은 없는데 자취경험, 동거경험은 있어요!",
+                    "utterance_id": "MDRW2100015001.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "룸메이트분과는 원만하셨나요?",
+                    "utterance_id": "MDRW2100015001.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "딱히 싸운 기억은 그리 많지 않아요. 싸웠다고 해도 크게 싸운것도 아니고 그냥 작은 다툼정도였는데 살면서 안 부딪치는건 쉽지 않을테니까 원만하게 잘 보냈다고 볼 수 있겠네요!",
+                    "utterance_id": "MDRW2100015001.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "생활 패턴이 크게 다으지 않으셨나봐요!",
+                    "utterance_id": "MDRW2100015001.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "생활 패턴도 비슷했지만 다를 때는 얼굴도 잘 못 볼 정도로 달라서 그랬던것 같아요",
+                    "utterance_id": "MDRW2100015001.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "name1님은 자취나 동거 경험 있으신가요??",
+                    "utterance_id": "MDRW2100015001.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "기숙사에 살아본 적은 있어요",
+                    "utterance_id": "MDRW2100015001.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "오! 기숙사 생활은 어때요??",
+                    "utterance_id": "MDRW2100015001.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "청소데이나 통금 제외하고는 할만했어요ㅎㅎ",
+                    "utterance_id": "MDRW2100015001.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "청소데이는 뭐에요??",
+                    "utterance_id": "MDRW2100015001.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "모든 기숙사생들이 청소하고 각 층장에게 검사를 받는 날이에요",
+                    "utterance_id": "MDRW2100015001.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "층장에게 통과받지 못하면 통과받을때까지 다시 해야하는건가요?ㅠㅠ",
+                    "utterance_id": "MDRW2100015001.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네네ㅠㅠ 그래서 싫어했어요..",
+                    "utterance_id": "MDRW2100015001.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "허어ㅠㅠㅠㅠ 생각만으로도 너무 끔찍하네요ㅠㅠ 저였어도 너무 싫어서 외출이든 뭐든 빠져나올 방법이 없는지 열심히 생각했을 것 같네요ㅠㅠ",
+                    "utterance_id": "MDRW2100015001.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100015001.1.10"
+            ],
+            "category": "동기",
+            "inference_1": "화자1은 기숙사 생활을 화자2에게 알려주고 싶다.",
+            "inference_2": "화자1은 화자2의 기숙사 생활을 듣고 싶다.",
+            "inference_3": "화자1은 기숙사 생활의 폐해를 알려주고 싶다."
+        },
+        "output": "inference_1"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000128",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "기숙사나 자취 경험이 있으신가요?",
+                    "utterance_id": "MDRW2100015001.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "기숙사 경험은 없는데 자취경험, 동거경험은 있어요!",
+                    "utterance_id": "MDRW2100015001.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "룸메이트분과는 원만하셨나요?",
+                    "utterance_id": "MDRW2100015001.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "딱히 싸운 기억은 그리 많지 않아요. 싸웠다고 해도 크게 싸운것도 아니고 그냥 작은 다툼정도였는데 살면서 안 부딪치는건 쉽지 않을테니까 원만하게 잘 보냈다고 볼 수 있겠네요!",
+                    "utterance_id": "MDRW2100015001.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "생활 패턴이 크게 다으지 않으셨나봐요!",
+                    "utterance_id": "MDRW2100015001.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "생활 패턴도 비슷했지만 다를 때는 얼굴도 잘 못 볼 정도로 달라서 그랬던것 같아요",
+                    "utterance_id": "MDRW2100015001.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "name1님은 자취나 동거 경험 있으신가요??",
+                    "utterance_id": "MDRW2100015001.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "기숙사에 살아본 적은 있어요",
+                    "utterance_id": "MDRW2100015001.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "오! 기숙사 생활은 어때요??",
+                    "utterance_id": "MDRW2100015001.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "청소데이나 통금 제외하고는 할만했어요ㅎㅎ",
+                    "utterance_id": "MDRW2100015001.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "청소데이는 뭐에요??",
+                    "utterance_id": "MDRW2100015001.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "모든 기숙사생들이 청소하고 각 층장에게 검사를 받는 날이에요",
+                    "utterance_id": "MDRW2100015001.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "층장에게 통과받지 못하면 통과받을때까지 다시 해야하는건가요?ㅠㅠ",
+                    "utterance_id": "MDRW2100015001.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네네ㅠㅠ 그래서 싫어했어요..",
+                    "utterance_id": "MDRW2100015001.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "허어ㅠㅠㅠㅠ 생각만으로도 너무 끔찍하네요ㅠㅠ 저였어도 너무 싫어서 외출이든 뭐든 빠져나올 방법이 없는지 열심히 생각했을 것 같네요ㅠㅠ",
+                    "utterance_id": "MDRW2100015001.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100015001.1.10"
+            ],
+            "category": "전제",
+            "inference_1": "기숙사마다 정해진 규칙이 있다.",
+            "inference_2": "기숙사마다 정해진 룸메이트가 있다.",
+            "inference_3": "모든 기숙사는 통금이 있다."
+        },
+        "output": "inference_1"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000129",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "기숙사나 자취 경험이 있으신가요?",
+                    "utterance_id": "MDRW2100015001.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "기숙사 경험은 없는데 자취경험, 동거경험은 있어요!",
+                    "utterance_id": "MDRW2100015001.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "룸메이트분과는 원만하셨나요?",
+                    "utterance_id": "MDRW2100015001.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "딱히 싸운 기억은 그리 많지 않아요. 싸웠다고 해도 크게 싸운것도 아니고 그냥 작은 다툼정도였는데 살면서 안 부딪치는건 쉽지 않을테니까 원만하게 잘 보냈다고 볼 수 있겠네요!",
+                    "utterance_id": "MDRW2100015001.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "생활 패턴이 크게 다으지 않으셨나봐요!",
+                    "utterance_id": "MDRW2100015001.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "생활 패턴도 비슷했지만 다를 때는 얼굴도 잘 못 볼 정도로 달라서 그랬던것 같아요",
+                    "utterance_id": "MDRW2100015001.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "name1님은 자취나 동거 경험 있으신가요??",
+                    "utterance_id": "MDRW2100015001.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "기숙사에 살아본 적은 있어요",
+                    "utterance_id": "MDRW2100015001.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "오! 기숙사 생활은 어때요??",
+                    "utterance_id": "MDRW2100015001.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "청소데이나 통금 제외하고는 할만했어요ㅎㅎ",
+                    "utterance_id": "MDRW2100015001.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "청소데이는 뭐에요??",
+                    "utterance_id": "MDRW2100015001.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "모든 기숙사생들이 청소하고 각 층장에게 검사를 받는 날이에요",
+                    "utterance_id": "MDRW2100015001.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "층장에게 통과받지 못하면 통과받을때까지 다시 해야하는건가요?ㅠㅠ",
+                    "utterance_id": "MDRW2100015001.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네네ㅠㅠ 그래서 싫어했어요..",
+                    "utterance_id": "MDRW2100015001.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "허어ㅠㅠㅠㅠ 생각만으로도 너무 끔찍하네요ㅠㅠ 저였어도 너무 싫어서 외출이든 뭐든 빠져나올 방법이 없는지 열심히 생각했을 것 같네요ㅠㅠ",
+                    "utterance_id": "MDRW2100015001.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100015001.1.10"
+            ],
+            "category": "반응",
+            "inference_1": "화자2는 청소 후 기숙사생들이 상호 피드백을 하는 날이 정해져 있다는 사실이 신기하다.",
+            "inference_2": "화자2는 청소를 하지 않아도 되는 날이 있다는 것이 놀랍다.",
+            "inference_3": "화자2는 청소를 하고 검사를 받아야 하는 날이 정해져 있다는 것이 놀랍다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000130",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "기숙사나 자취 경험이 있으신가요?",
+                    "utterance_id": "MDRW2100015001.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "기숙사 경험은 없는데 자취경험, 동거경험은 있어요!",
+                    "utterance_id": "MDRW2100015001.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "룸메이트분과는 원만하셨나요?",
+                    "utterance_id": "MDRW2100015001.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "딱히 싸운 기억은 그리 많지 않아요. 싸웠다고 해도 크게 싸운것도 아니고 그냥 작은 다툼정도였는데 살면서 안 부딪치는건 쉽지 않을테니까 원만하게 잘 보냈다고 볼 수 있겠네요!",
+                    "utterance_id": "MDRW2100015001.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "생활 패턴이 크게 다으지 않으셨나봐요!",
+                    "utterance_id": "MDRW2100015001.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "생활 패턴도 비슷했지만 다를 때는 얼굴도 잘 못 볼 정도로 달라서 그랬던것 같아요",
+                    "utterance_id": "MDRW2100015001.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "name1님은 자취나 동거 경험 있으신가요??",
+                    "utterance_id": "MDRW2100015001.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "기숙사에 살아본 적은 있어요",
+                    "utterance_id": "MDRW2100015001.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "오! 기숙사 생활은 어때요??",
+                    "utterance_id": "MDRW2100015001.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "청소데이나 통금 제외하고는 할만했어요ㅎㅎ",
+                    "utterance_id": "MDRW2100015001.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "청소데이는 뭐에요??",
+                    "utterance_id": "MDRW2100015001.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "모든 기숙사생들이 청소하고 각 층장에게 검사를 받는 날이에요",
+                    "utterance_id": "MDRW2100015001.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "층장에게 통과받지 못하면 통과받을때까지 다시 해야하는건가요?ㅠㅠ",
+                    "utterance_id": "MDRW2100015001.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네네ㅠㅠ 그래서 싫어했어요..",
+                    "utterance_id": "MDRW2100015001.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "허어ㅠㅠㅠㅠ 생각만으로도 너무 끔찍하네요ㅠㅠ 저였어도 너무 싫어서 외출이든 뭐든 빠져나올 방법이 없는지 열심히 생각했을 것 같네요ㅠㅠ",
+                    "utterance_id": "MDRW2100015001.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100015001.1.10"
+            ],
+            "category": "후행사건",
+            "inference_1": "화자1은 통금 시간을 어겼던 일화를 풀어줄 것이다.",
+            "inference_2": "화자1은 통금이 없어 행복했다는 이야기를 해줄 것이다.",
+            "inference_3": "화자1은 통학 시간이 길었던 일화를 들려줄 것이다."
+        },
+        "output": "inference_1"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000131",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "그렇군요. 저는 동생이 제일 좋더라고요.",
+                    "utterance_id": "MDRW2100014606.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "본인은요?",
+                    "utterance_id": "MDRW2100014606.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저보다 동생이 더 좋아요!!",
+                    "utterance_id": "MDRW2100014606.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아닌것 같던데",
+                    "utterance_id": "MDRW2100014606.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "털잠바입으면 껴안기 너무 좋더라고요.",
+                    "utterance_id": "MDRW2100014606.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "동생이 그렇게나 좋다면 동생 입장을 더욱 생각해야 합니다. 이기적이어선 안 돼요",
+                    "utterance_id": "MDRW2100014606.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아얏.. 그렇군요.\n본인스스로가 좋은 이유가 무엇인가요",
+                    "utterance_id": "MDRW2100014606.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "언니한테 상처받고 싶지 않아서요",
+                    "utterance_id": "MDRW2100014606.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "가족들을 사랑해보도록 노력해봐요",
+                    "utterance_id": "MDRW2100014606.1.9"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "항상 저만 언니를 맹목적으로 위하는거 같은 생각이 들더라고요",
+                    "utterance_id": "MDRW2100014606.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아니..그렇군요 ㅠㅠ",
+                    "utterance_id": "MDRW2100014606.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "열심히 교류해서 가까워지시길 바랍니다",
+                    "utterance_id": "MDRW2100014606.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "짝사랑인생이죠",
+                    "utterance_id": "MDRW2100014606.1.13"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100014606.1.10"
+            ],
+            "category": "원인",
+            "inference_1": "화자2의 언니는 화자2를 잘 챙겨주지 않는다.",
+            "inference_2": "화자2의 언니는 화자2에게 살뜰하다.",
+            "inference_3": "화자2의 동생은 화자2에게 소홀하다."
+        },
+        "output": "inference_1"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000132",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "그렇군요. 저는 동생이 제일 좋더라고요.",
+                    "utterance_id": "MDRW2100014606.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "본인은요?",
+                    "utterance_id": "MDRW2100014606.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저보다 동생이 더 좋아요!!",
+                    "utterance_id": "MDRW2100014606.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아닌것 같던데",
+                    "utterance_id": "MDRW2100014606.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "털잠바입으면 껴안기 너무 좋더라고요.",
+                    "utterance_id": "MDRW2100014606.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "동생이 그렇게나 좋다면 동생 입장을 더욱 생각해야 합니다. 이기적이어선 안 돼요",
+                    "utterance_id": "MDRW2100014606.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아얏.. 그렇군요.\n본인스스로가 좋은 이유가 무엇인가요",
+                    "utterance_id": "MDRW2100014606.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "언니한테 상처받고 싶지 않아서요",
+                    "utterance_id": "MDRW2100014606.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "가족들을 사랑해보도록 노력해봐요",
+                    "utterance_id": "MDRW2100014606.1.9"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "항상 저만 언니를 맹목적으로 위하는거 같은 생각이 들더라고요",
+                    "utterance_id": "MDRW2100014606.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아니..그렇군요 ㅠㅠ",
+                    "utterance_id": "MDRW2100014606.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "열심히 교류해서 가까워지시길 바랍니다",
+                    "utterance_id": "MDRW2100014606.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "짝사랑인생이죠",
+                    "utterance_id": "MDRW2100014606.1.13"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100014606.1.10"
+            ],
+            "category": "동기",
+            "inference_1": "화자2는 언니가 타인을 조금 더 위해주기를 바란다.",
+            "inference_2": "화자2는 언니가 언니 자신을 좀 더 아껴줬으면 한다.",
+            "inference_3": "화자2는 언니가 자신을 조금 더 위해줬으면 싶다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000133",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "그렇군요. 저는 동생이 제일 좋더라고요.",
+                    "utterance_id": "MDRW2100014606.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "본인은요?",
+                    "utterance_id": "MDRW2100014606.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저보다 동생이 더 좋아요!!",
+                    "utterance_id": "MDRW2100014606.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아닌것 같던데",
+                    "utterance_id": "MDRW2100014606.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "털잠바입으면 껴안기 너무 좋더라고요.",
+                    "utterance_id": "MDRW2100014606.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "동생이 그렇게나 좋다면 동생 입장을 더욱 생각해야 합니다. 이기적이어선 안 돼요",
+                    "utterance_id": "MDRW2100014606.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아얏.. 그렇군요.\n본인스스로가 좋은 이유가 무엇인가요",
+                    "utterance_id": "MDRW2100014606.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "언니한테 상처받고 싶지 않아서요",
+                    "utterance_id": "MDRW2100014606.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "가족들을 사랑해보도록 노력해봐요",
+                    "utterance_id": "MDRW2100014606.1.9"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "항상 저만 언니를 맹목적으로 위하는거 같은 생각이 들더라고요",
+                    "utterance_id": "MDRW2100014606.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아니..그렇군요 ㅠㅠ",
+                    "utterance_id": "MDRW2100014606.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "열심히 교류해서 가까워지시길 바랍니다",
+                    "utterance_id": "MDRW2100014606.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "짝사랑인생이죠",
+                    "utterance_id": "MDRW2100014606.1.13"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100014606.1.10"
+            ],
+            "category": "전제",
+            "inference_1": "화자2는 외동딸이다.",
+            "inference_2": "화자2는 동생이 있다.",
+            "inference_3": "화자2는 언니가 있다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000134",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "그렇군요. 저는 동생이 제일 좋더라고요.",
+                    "utterance_id": "MDRW2100014606.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "본인은요?",
+                    "utterance_id": "MDRW2100014606.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저보다 동생이 더 좋아요!!",
+                    "utterance_id": "MDRW2100014606.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아닌것 같던데",
+                    "utterance_id": "MDRW2100014606.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "털잠바입으면 껴안기 너무 좋더라고요.",
+                    "utterance_id": "MDRW2100014606.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "동생이 그렇게나 좋다면 동생 입장을 더욱 생각해야 합니다. 이기적이어선 안 돼요",
+                    "utterance_id": "MDRW2100014606.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아얏.. 그렇군요.\n본인스스로가 좋은 이유가 무엇인가요",
+                    "utterance_id": "MDRW2100014606.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "언니한테 상처받고 싶지 않아서요",
+                    "utterance_id": "MDRW2100014606.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "가족들을 사랑해보도록 노력해봐요",
+                    "utterance_id": "MDRW2100014606.1.9"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "항상 저만 언니를 맹목적으로 위하는거 같은 생각이 들더라고요",
+                    "utterance_id": "MDRW2100014606.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아니..그렇군요 ㅠㅠ",
+                    "utterance_id": "MDRW2100014606.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "열심히 교류해서 가까워지시길 바랍니다",
+                    "utterance_id": "MDRW2100014606.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "짝사랑인생이죠",
+                    "utterance_id": "MDRW2100014606.1.13"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100014606.1.10"
+            ],
+            "category": "반응",
+            "inference_1": "화자1은 언니와 일방적인 관계에 있는 화자2가 안타깝다.",
+            "inference_2": "화자1은 언니에게 맹목적 사랑을 받는 화자2가 부럽다.",
+            "inference_3": "화자1은 언니와 일방적 관계를 유지하는 화자2가 답답하다."
+        },
+        "output": "inference_1"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000135",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "그렇군요. 저는 동생이 제일 좋더라고요.",
+                    "utterance_id": "MDRW2100014606.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "본인은요?",
+                    "utterance_id": "MDRW2100014606.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저보다 동생이 더 좋아요!!",
+                    "utterance_id": "MDRW2100014606.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아닌것 같던데",
+                    "utterance_id": "MDRW2100014606.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "털잠바입으면 껴안기 너무 좋더라고요.",
+                    "utterance_id": "MDRW2100014606.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "동생이 그렇게나 좋다면 동생 입장을 더욱 생각해야 합니다. 이기적이어선 안 돼요",
+                    "utterance_id": "MDRW2100014606.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아얏.. 그렇군요.\n본인스스로가 좋은 이유가 무엇인가요",
+                    "utterance_id": "MDRW2100014606.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "언니한테 상처받고 싶지 않아서요",
+                    "utterance_id": "MDRW2100014606.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "가족들을 사랑해보도록 노력해봐요",
+                    "utterance_id": "MDRW2100014606.1.9"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "항상 저만 언니를 맹목적으로 위하는거 같은 생각이 들더라고요",
+                    "utterance_id": "MDRW2100014606.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아니..그렇군요 ㅠㅠ",
+                    "utterance_id": "MDRW2100014606.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "열심히 교류해서 가까워지시길 바랍니다",
+                    "utterance_id": "MDRW2100014606.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "짝사랑인생이죠",
+                    "utterance_id": "MDRW2100014606.1.13"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100014606.1.10"
+            ],
+            "category": "후행사건",
+            "inference_1": "화자2는 언니에게 상처받는 방법을 찾을 것이다.",
+            "inference_2": "화자2는 언니의 희생에 보답할 방법을 고민할 것이다.",
+            "inference_3": "화자2는 언니와 진지한 대화를 시도할 것이다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000136",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "비와요?",
+                    "utterance_id": "MDRW2100007929.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "흐리기만 하고 비는 안와요",
+                    "utterance_id": "MDRW2100007929.1.2"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "거긴 날씨 어때요?",
+                    "utterance_id": "MDRW2100007929.1.3"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "맑아요",
+                    "utterance_id": "MDRW2100007929.1.4"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "혹시 덥진 않나요?",
+                    "utterance_id": "MDRW2100007929.1.5"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "더워요",
+                    "utterance_id": "MDRW2100007929.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아직 기온이 크게 떨어지진 않았더라구요",
+                    "utterance_id": "MDRW2100007929.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "마지막 더위 조심하세요",
+                    "utterance_id": "MDRW2100007929.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "늦장마 무서워요",
+                    "utterance_id": "MDRW2100007929.1.9"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "호우주의보 자주 뜨더라구요",
+                    "utterance_id": "MDRW2100007929.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "태풍도요",
+                    "utterance_id": "MDRW2100007929.1.11"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "조심하세요 기상이변이 심해서",
+                    "utterance_id": "MDRW2100007929.1.12"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "자연이 대단해요",
+                    "utterance_id": "MDRW2100007929.1.13"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "인간은 자연을 이길 수 없나봐요",
+                    "utterance_id": "MDRW2100007929.1.14"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네 위대함이죠",
+                    "utterance_id": "MDRW2100007929.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100007929.1.12"
+            ],
+            "category": "원인",
+            "inference_1": "요즘 호우주의보와 태풍이 잦아든 추세다.",
+            "inference_2": "최근 호우주의보와 태풍이 자주 발효되고 있다.",
+            "inference_3": "최근 호우주의보와 태풍이 잦지 않다."
+        },
+        "output": "inference_2"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000137",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "비와요?",
+                    "utterance_id": "MDRW2100007929.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "흐리기만 하고 비는 안와요",
+                    "utterance_id": "MDRW2100007929.1.2"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "거긴 날씨 어때요?",
+                    "utterance_id": "MDRW2100007929.1.3"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "맑아요",
+                    "utterance_id": "MDRW2100007929.1.4"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "혹시 덥진 않나요?",
+                    "utterance_id": "MDRW2100007929.1.5"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "더워요",
+                    "utterance_id": "MDRW2100007929.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아직 기온이 크게 떨어지진 않았더라구요",
+                    "utterance_id": "MDRW2100007929.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "마지막 더위 조심하세요",
+                    "utterance_id": "MDRW2100007929.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "늦장마 무서워요",
+                    "utterance_id": "MDRW2100007929.1.9"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "호우주의보 자주 뜨더라구요",
+                    "utterance_id": "MDRW2100007929.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "태풍도요",
+                    "utterance_id": "MDRW2100007929.1.11"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "조심하세요 기상이변이 심해서",
+                    "utterance_id": "MDRW2100007929.1.12"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "자연이 대단해요",
+                    "utterance_id": "MDRW2100007929.1.13"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "인간은 자연을 이길 수 없나봐요",
+                    "utterance_id": "MDRW2100007929.1.14"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네 위대함이죠",
+                    "utterance_id": "MDRW2100007929.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100007929.1.12"
+            ],
+            "category": "동기",
+            "inference_1": "화자2는 화자1이 자연재해로 입은 피해를 극복하기를 바란다.",
+            "inference_2": "화자2는 화자1이 자연재해로 피해를 보지 않기를 바란다.",
+            "inference_3": "화자2는 화자1이 자연재해로 인한 피해에 관심을 가지기를 바란다."
+        },
+        "output": "inference_2"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000138",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "비와요?",
+                    "utterance_id": "MDRW2100007929.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "흐리기만 하고 비는 안와요",
+                    "utterance_id": "MDRW2100007929.1.2"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "거긴 날씨 어때요?",
+                    "utterance_id": "MDRW2100007929.1.3"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "맑아요",
+                    "utterance_id": "MDRW2100007929.1.4"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "혹시 덥진 않나요?",
+                    "utterance_id": "MDRW2100007929.1.5"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "더워요",
+                    "utterance_id": "MDRW2100007929.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아직 기온이 크게 떨어지진 않았더라구요",
+                    "utterance_id": "MDRW2100007929.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "마지막 더위 조심하세요",
+                    "utterance_id": "MDRW2100007929.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "늦장마 무서워요",
+                    "utterance_id": "MDRW2100007929.1.9"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "호우주의보 자주 뜨더라구요",
+                    "utterance_id": "MDRW2100007929.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "태풍도요",
+                    "utterance_id": "MDRW2100007929.1.11"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "조심하세요 기상이변이 심해서",
+                    "utterance_id": "MDRW2100007929.1.12"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "자연이 대단해요",
+                    "utterance_id": "MDRW2100007929.1.13"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "인간은 자연을 이길 수 없나봐요",
+                    "utterance_id": "MDRW2100007929.1.14"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네 위대함이죠",
+                    "utterance_id": "MDRW2100007929.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100007929.1.12"
+            ],
+            "category": "전제",
+            "inference_1": "평상시 수준을 많이 벗어난 기상현상이 발생했었다.",
+            "inference_2": "평상시 수준과 비슷한 기상현상이 발생하고 있다.",
+            "inference_3": "평상시 수준을 많이 벗어난 기상현상이 발생하고 있다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000139",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "비와요?",
+                    "utterance_id": "MDRW2100007929.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "흐리기만 하고 비는 안와요",
+                    "utterance_id": "MDRW2100007929.1.2"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "거긴 날씨 어때요?",
+                    "utterance_id": "MDRW2100007929.1.3"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "맑아요",
+                    "utterance_id": "MDRW2100007929.1.4"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "혹시 덥진 않나요?",
+                    "utterance_id": "MDRW2100007929.1.5"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "더워요",
+                    "utterance_id": "MDRW2100007929.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아직 기온이 크게 떨어지진 않았더라구요",
+                    "utterance_id": "MDRW2100007929.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "마지막 더위 조심하세요",
+                    "utterance_id": "MDRW2100007929.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "늦장마 무서워요",
+                    "utterance_id": "MDRW2100007929.1.9"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "호우주의보 자주 뜨더라구요",
+                    "utterance_id": "MDRW2100007929.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "태풍도요",
+                    "utterance_id": "MDRW2100007929.1.11"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "조심하세요 기상이변이 심해서",
+                    "utterance_id": "MDRW2100007929.1.12"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "자연이 대단해요",
+                    "utterance_id": "MDRW2100007929.1.13"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "인간은 자연을 이길 수 없나봐요",
+                    "utterance_id": "MDRW2100007929.1.14"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네 위대함이죠",
+                    "utterance_id": "MDRW2100007929.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100007929.1.12"
+            ],
+            "category": "반응",
+            "inference_1": "화자1은 자연에 피해를 입힐까 걱정된다.",
+            "inference_2": "화자1은 자연재해로 피해를 입을까 두렵다.",
+            "inference_3": "화자1은 산불로 피해를 입을까 두렵다."
+        },
+        "output": "inference_2"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000140",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "비와요?",
+                    "utterance_id": "MDRW2100007929.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "흐리기만 하고 비는 안와요",
+                    "utterance_id": "MDRW2100007929.1.2"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "거긴 날씨 어때요?",
+                    "utterance_id": "MDRW2100007929.1.3"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "맑아요",
+                    "utterance_id": "MDRW2100007929.1.4"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "혹시 덥진 않나요?",
+                    "utterance_id": "MDRW2100007929.1.5"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "더워요",
+                    "utterance_id": "MDRW2100007929.1.6"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아직 기온이 크게 떨어지진 않았더라구요",
+                    "utterance_id": "MDRW2100007929.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "마지막 더위 조심하세요",
+                    "utterance_id": "MDRW2100007929.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "늦장마 무서워요",
+                    "utterance_id": "MDRW2100007929.1.9"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "호우주의보 자주 뜨더라구요",
+                    "utterance_id": "MDRW2100007929.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "태풍도요",
+                    "utterance_id": "MDRW2100007929.1.11"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "조심하세요 기상이변이 심해서",
+                    "utterance_id": "MDRW2100007929.1.12"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "자연이 대단해요",
+                    "utterance_id": "MDRW2100007929.1.13"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "인간은 자연을 이길 수 없나봐요",
+                    "utterance_id": "MDRW2100007929.1.14"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네 위대함이죠",
+                    "utterance_id": "MDRW2100007929.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100007929.1.12"
+            ],
+            "category": "후행사건",
+            "inference_1": "화자1은 태풍과 호우를 대비하여 집 시설을 점검할 것이다.",
+            "inference_2": "화자1은 늦장마를 대비하여 보일러 시설을 점검할 것이다.",
+            "inference_3": "화자1은 호우와 태풍에 대비하여 냉방 시설을 점검할 것이다."
+        },
+        "output": "inference_1"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000141",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "공연이나 전시회 보신적있으신가요?",
+                    "utterance_id": "MDRW2100011668.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "네 최근은 아니지만 예전에는 보러 다녔죠ㅎㅎ",
+                    "utterance_id": "MDRW2100011668.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어떤거 보셨나요?",
+                    "utterance_id": "MDRW2100011668.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "한남동에서 청춘에 관한 전시를 본게 제일 기억에 남네요",
+                    "utterance_id": "MDRW2100011668.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어떤 부분이 인상 깊으셨어요?",
+                    "utterance_id": "MDRW2100011668.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "청춘에 관해서 암실에 네온 사인으로 장식한 게 인상 깊었어요 자유로운 전시회여서 사진도 찍으면서 즐거웠어요ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100011668.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "요즘 네온사인으로 연출하는게 유행인거같더라구요",
+                    "utterance_id": "MDRW2100011668.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "최근에 영화 보셨나요",
+                    "utterance_id": "MDRW2100011668.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아녀 최근에 극장에서는 영화를 안 봤는데 옥돔 님은 보셨나요?",
+                    "utterance_id": "MDRW2100011668.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저도요ㅋㅋ 원래는 인터넷으로 보기도했는데 귀찮아서 안봐요",
+                    "utterance_id": "MDRW2100011668.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "인상깊게봤던 영화 있으신가요?",
+                    "utterance_id": "MDRW2100011668.1.11"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "전 삼진 그룹 영어토익반 재밌게 봤어요!",
+                    "utterance_id": "MDRW2100011668.1.12"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어 그거 보려고 미뤄괐는데!!!!",
+                    "utterance_id": "MDRW2100011668.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "귀찮아서 못보고있어요",
+                    "utterance_id": "MDRW2100011668.1.14"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저는 우리들이라는 영화잘봤어요",
+                    "utterance_id": "MDRW2100011668.1.15"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "오 우리들은 누구 주연의 영화인가요???",
+                    "utterance_id": "MDRW2100011668.1.16"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아역배우들인데 이름은 기억이안나요",
+                    "utterance_id": "MDRW2100011668.1.17"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100011668.1.17"
+            ],
+            "category": "원인",
+            "inference_1": "화자1은 배우들의 정보에 별로 관심이 없다.",
+            "inference_2": "화자1은 배우들의 스케쥴을 꿰고 있다.",
+            "inference_3": "화자1은 배우들의 정보에 대해 관심이 지대하다."
+        },
+        "output": "inference_1"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000142",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "공연이나 전시회 보신적있으신가요?",
+                    "utterance_id": "MDRW2100011668.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "네 최근은 아니지만 예전에는 보러 다녔죠ㅎㅎ",
+                    "utterance_id": "MDRW2100011668.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어떤거 보셨나요?",
+                    "utterance_id": "MDRW2100011668.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "한남동에서 청춘에 관한 전시를 본게 제일 기억에 남네요",
+                    "utterance_id": "MDRW2100011668.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어떤 부분이 인상 깊으셨어요?",
+                    "utterance_id": "MDRW2100011668.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "청춘에 관해서 암실에 네온 사인으로 장식한 게 인상 깊었어요 자유로운 전시회여서 사진도 찍으면서 즐거웠어요ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100011668.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "요즘 네온사인으로 연출하는게 유행인거같더라구요",
+                    "utterance_id": "MDRW2100011668.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "최근에 영화 보셨나요",
+                    "utterance_id": "MDRW2100011668.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아녀 최근에 극장에서는 영화를 안 봤는데 옥돔 님은 보셨나요?",
+                    "utterance_id": "MDRW2100011668.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저도요ㅋㅋ 원래는 인터넷으로 보기도했는데 귀찮아서 안봐요",
+                    "utterance_id": "MDRW2100011668.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "인상깊게봤던 영화 있으신가요?",
+                    "utterance_id": "MDRW2100011668.1.11"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "전 삼진 그룹 영어토익반 재밌게 봤어요!",
+                    "utterance_id": "MDRW2100011668.1.12"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어 그거 보려고 미뤄괐는데!!!!",
+                    "utterance_id": "MDRW2100011668.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "귀찮아서 못보고있어요",
+                    "utterance_id": "MDRW2100011668.1.14"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저는 우리들이라는 영화잘봤어요",
+                    "utterance_id": "MDRW2100011668.1.15"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "오 우리들은 누구 주연의 영화인가요???",
+                    "utterance_id": "MDRW2100011668.1.16"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아역배우들인데 이름은 기억이안나요",
+                    "utterance_id": "MDRW2100011668.1.17"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100011668.1.13",
+                "MDRW2100011668.1.14"
+            ],
+            "category": "동기",
+            "inference_1": "화자1은 영화 '삼진 그룹 영어 토익반'의 감상 후기를 나누고 싶다.",
+            "inference_2": "화자1은 영화 '삼진 그룹 영어 토익반'을 보기가 싫다.",
+            "inference_3": "화자1은 언젠가 영화 '삼진 그룹 영어 토익반'을 보고 싶다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000143",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "공연이나 전시회 보신적있으신가요?",
+                    "utterance_id": "MDRW2100011668.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "네 최근은 아니지만 예전에는 보러 다녔죠ㅎㅎ",
+                    "utterance_id": "MDRW2100011668.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어떤거 보셨나요?",
+                    "utterance_id": "MDRW2100011668.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "한남동에서 청춘에 관한 전시를 본게 제일 기억에 남네요",
+                    "utterance_id": "MDRW2100011668.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어떤 부분이 인상 깊으셨어요?",
+                    "utterance_id": "MDRW2100011668.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "청춘에 관해서 암실에 네온 사인으로 장식한 게 인상 깊었어요 자유로운 전시회여서 사진도 찍으면서 즐거웠어요ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100011668.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "요즘 네온사인으로 연출하는게 유행인거같더라구요",
+                    "utterance_id": "MDRW2100011668.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "최근에 영화 보셨나요",
+                    "utterance_id": "MDRW2100011668.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아녀 최근에 극장에서는 영화를 안 봤는데 옥돔 님은 보셨나요?",
+                    "utterance_id": "MDRW2100011668.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저도요ㅋㅋ 원래는 인터넷으로 보기도했는데 귀찮아서 안봐요",
+                    "utterance_id": "MDRW2100011668.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "인상깊게봤던 영화 있으신가요?",
+                    "utterance_id": "MDRW2100011668.1.11"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "전 삼진 그룹 영어토익반 재밌게 봤어요!",
+                    "utterance_id": "MDRW2100011668.1.12"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어 그거 보려고 미뤄괐는데!!!!",
+                    "utterance_id": "MDRW2100011668.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "귀찮아서 못보고있어요",
+                    "utterance_id": "MDRW2100011668.1.14"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저는 우리들이라는 영화잘봤어요",
+                    "utterance_id": "MDRW2100011668.1.15"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "오 우리들은 누구 주연의 영화인가요???",
+                    "utterance_id": "MDRW2100011668.1.16"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아역배우들인데 이름은 기억이안나요",
+                    "utterance_id": "MDRW2100011668.1.17"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100011668.1.13",
+                "MDRW2100011668.1.14"
+            ],
+            "category": "전제",
+            "inference_1": "귀찮아서 영화관에 가는 것을 미루면 영화들을 더 이상 볼 수 없다.",
+            "inference_2": "현장에 가지 않아도 인터넷으로 지난 전시회를 관람할 수 있다.",
+            "inference_3": "영화관에 가지 않아도 인터넷으로 지난 영화들을 시청할 수 있다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000144",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "공연이나 전시회 보신적있으신가요?",
+                    "utterance_id": "MDRW2100011668.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "네 최근은 아니지만 예전에는 보러 다녔죠ㅎㅎ",
+                    "utterance_id": "MDRW2100011668.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어떤거 보셨나요?",
+                    "utterance_id": "MDRW2100011668.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "한남동에서 청춘에 관한 전시를 본게 제일 기억에 남네요",
+                    "utterance_id": "MDRW2100011668.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어떤 부분이 인상 깊으셨어요?",
+                    "utterance_id": "MDRW2100011668.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "청춘에 관해서 암실에 네온 사인으로 장식한 게 인상 깊었어요 자유로운 전시회여서 사진도 찍으면서 즐거웠어요ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100011668.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "요즘 네온사인으로 연출하는게 유행인거같더라구요",
+                    "utterance_id": "MDRW2100011668.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "최근에 영화 보셨나요",
+                    "utterance_id": "MDRW2100011668.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아녀 최근에 극장에서는 영화를 안 봤는데 옥돔 님은 보셨나요?",
+                    "utterance_id": "MDRW2100011668.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저도요ㅋㅋ 원래는 인터넷으로 보기도했는데 귀찮아서 안봐요",
+                    "utterance_id": "MDRW2100011668.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "인상깊게봤던 영화 있으신가요?",
+                    "utterance_id": "MDRW2100011668.1.11"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "전 삼진 그룹 영어토익반 재밌게 봤어요!",
+                    "utterance_id": "MDRW2100011668.1.12"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어 그거 보려고 미뤄괐는데!!!!",
+                    "utterance_id": "MDRW2100011668.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "귀찮아서 못보고있어요",
+                    "utterance_id": "MDRW2100011668.1.14"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저는 우리들이라는 영화잘봤어요",
+                    "utterance_id": "MDRW2100011668.1.15"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "오 우리들은 누구 주연의 영화인가요???",
+                    "utterance_id": "MDRW2100011668.1.16"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아역배우들인데 이름은 기억이안나요",
+                    "utterance_id": "MDRW2100011668.1.17"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100011668.1.13",
+                "MDRW2100011668.1.14"
+            ],
+            "category": "반응",
+            "inference_1": "화자2는 화자1이 자신이 추천한 영화를 보길 기대한다.",
+            "inference_2": "화자2는 화자1이 추천한 영화를 빨리 보고 싶다.",
+            "inference_3": "화자2는 화자1이 자신이 추천한 영화를 봐서 기분이 좋다."
+        },
+        "output": "inference_1"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000145",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "공연이나 전시회 보신적있으신가요?",
+                    "utterance_id": "MDRW2100011668.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "네 최근은 아니지만 예전에는 보러 다녔죠ㅎㅎ",
+                    "utterance_id": "MDRW2100011668.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어떤거 보셨나요?",
+                    "utterance_id": "MDRW2100011668.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "한남동에서 청춘에 관한 전시를 본게 제일 기억에 남네요",
+                    "utterance_id": "MDRW2100011668.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어떤 부분이 인상 깊으셨어요?",
+                    "utterance_id": "MDRW2100011668.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "청춘에 관해서 암실에 네온 사인으로 장식한 게 인상 깊었어요 자유로운 전시회여서 사진도 찍으면서 즐거웠어요ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100011668.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "요즘 네온사인으로 연출하는게 유행인거같더라구요",
+                    "utterance_id": "MDRW2100011668.1.7"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "최근에 영화 보셨나요",
+                    "utterance_id": "MDRW2100011668.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "아녀 최근에 극장에서는 영화를 안 봤는데 옥돔 님은 보셨나요?",
+                    "utterance_id": "MDRW2100011668.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저도요ㅋㅋ 원래는 인터넷으로 보기도했는데 귀찮아서 안봐요",
+                    "utterance_id": "MDRW2100011668.1.10"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "인상깊게봤던 영화 있으신가요?",
+                    "utterance_id": "MDRW2100011668.1.11"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "전 삼진 그룹 영어토익반 재밌게 봤어요!",
+                    "utterance_id": "MDRW2100011668.1.12"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "어 그거 보려고 미뤄괐는데!!!!",
+                    "utterance_id": "MDRW2100011668.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "귀찮아서 못보고있어요",
+                    "utterance_id": "MDRW2100011668.1.14"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "저는 우리들이라는 영화잘봤어요",
+                    "utterance_id": "MDRW2100011668.1.15"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "오 우리들은 누구 주연의 영화인가요???",
+                    "utterance_id": "MDRW2100011668.1.16"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "아역배우들인데 이름은 기억이안나요",
+                    "utterance_id": "MDRW2100011668.1.17"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100011668.1.13",
+                "MDRW2100011668.1.14"
+            ],
+            "category": "후행사건",
+            "inference_1": "화자1은 화자2가 얘기한 영화를 볼 것이다.",
+            "inference_2": "화자1은 화자2가 얘기한 전시를 관람할 것이다.",
+            "inference_3": "화자1은 화자2가 출연한 영화를 볼 것이다."
+        },
+        "output": "inference_1"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000146",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 2,
+                    "utterance": "버뜨 건성은 겨울에 화장이 굳어서 쩍쩍 갈라진다는 거ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.1"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "수분 부족 지성 증말 할말하않...",
+                    "utterance_id": "MDRW2100024967.1.2"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "남들 얼굴에 기름 닦아낼때 난 기름을 바르짘ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.3"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "다 각자의 고충이ㅜㅜㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.4"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "돈만 있음 피부과에 출근도장 찍고싶네ㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.5"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "돈있음 뭔들 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "돈 대신 부지런으로 때워야 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "부지런도 돈이 있어야ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "홈케어로 부지런해야지",
+                    "utterance_id": "MDRW2100024967.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "난 것도 못함ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "마스크팩도 자주 하니까 돈이더라ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "마스크팩은 난 돈보다 부지런함이 더 필요한 너낌 ㅋㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "돈보다 어려운게 부지런함이구나ㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "마스크팩 정도의 투자는 가넝하다는 뭐 그런 소리 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "너 투자자였구나ㅎㅎㅎ",
+                    "utterance_id": "MDRW2100024967.1.15"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "일단 집에 팩은 쌓여 있으니 ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.16"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100024967.1.3"
+            ],
+            "category": "원인",
+            "inference_1": "화자2의 피부 유형은 민감성이다.",
+            "inference_2": "화자2는 피부 관리를 건성건성 한다.",
+            "inference_3": "화자2의 피부 유형은 건성이다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000147",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 2,
+                    "utterance": "버뜨 건성은 겨울에 화장이 굳어서 쩍쩍 갈라진다는 거ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.1"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "수분 부족 지성 증말 할말하않...",
+                    "utterance_id": "MDRW2100024967.1.2"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "남들 얼굴에 기름 닦아낼때 난 기름을 바르짘ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.3"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "다 각자의 고충이ㅜㅜㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.4"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "돈만 있음 피부과에 출근도장 찍고싶네ㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.5"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "돈있음 뭔들 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "돈 대신 부지런으로 때워야 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "부지런도 돈이 있어야ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "홈케어로 부지런해야지",
+                    "utterance_id": "MDRW2100024967.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "난 것도 못함ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "마스크팩도 자주 하니까 돈이더라ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "마스크팩은 난 돈보다 부지런함이 더 필요한 너낌 ㅋㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "돈보다 어려운게 부지런함이구나ㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "마스크팩 정도의 투자는 가넝하다는 뭐 그런 소리 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "너 투자자였구나ㅎㅎㅎ",
+                    "utterance_id": "MDRW2100024967.1.15"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "일단 집에 팩은 쌓여 있으니 ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.16"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100024967.1.3"
+            ],
+            "category": "동기",
+            "inference_1": "화자2는 피부가 건성으로 바뀌었으면 싶다.",
+            "inference_2": "화자2는 건성인 피부를 개선하고 싶다.",
+            "inference_3": "화자2는 건성인 피부를 유지하고 싶다."
+        },
+        "output": "inference_2"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000148",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 2,
+                    "utterance": "버뜨 건성은 겨울에 화장이 굳어서 쩍쩍 갈라진다는 거ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.1"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "수분 부족 지성 증말 할말하않...",
+                    "utterance_id": "MDRW2100024967.1.2"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "남들 얼굴에 기름 닦아낼때 난 기름을 바르짘ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.3"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "다 각자의 고충이ㅜㅜㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.4"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "돈만 있음 피부과에 출근도장 찍고싶네ㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.5"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "돈있음 뭔들 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "돈 대신 부지런으로 때워야 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "부지런도 돈이 있어야ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "홈케어로 부지런해야지",
+                    "utterance_id": "MDRW2100024967.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "난 것도 못함ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "마스크팩도 자주 하니까 돈이더라ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "마스크팩은 난 돈보다 부지런함이 더 필요한 너낌 ㅋㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "돈보다 어려운게 부지런함이구나ㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "마스크팩 정도의 투자는 가넝하다는 뭐 그런 소리 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "너 투자자였구나ㅎㅎㅎ",
+                    "utterance_id": "MDRW2100024967.1.15"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "일단 집에 팩은 쌓여 있으니 ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.16"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100024967.1.3"
+            ],
+            "category": "전제",
+            "inference_1": "화자2는 피부과에서 일한다.",
+            "inference_2": "화자2는 피부 관리를 한다.",
+            "inference_3": "화자2는 피부에 기름이 많다."
+        },
+        "output": "inference_2"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000149",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 2,
+                    "utterance": "버뜨 건성은 겨울에 화장이 굳어서 쩍쩍 갈라진다는 거ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.1"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "수분 부족 지성 증말 할말하않...",
+                    "utterance_id": "MDRW2100024967.1.2"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "남들 얼굴에 기름 닦아낼때 난 기름을 바르짘ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.3"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "다 각자의 고충이ㅜㅜㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.4"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "돈만 있음 피부과에 출근도장 찍고싶네ㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.5"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "돈있음 뭔들 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "돈 대신 부지런으로 때워야 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "부지런도 돈이 있어야ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "홈케어로 부지런해야지",
+                    "utterance_id": "MDRW2100024967.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "난 것도 못함ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "마스크팩도 자주 하니까 돈이더라ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "마스크팩은 난 돈보다 부지런함이 더 필요한 너낌 ㅋㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "돈보다 어려운게 부지런함이구나ㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "마스크팩 정도의 투자는 가넝하다는 뭐 그런 소리 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "너 투자자였구나ㅎㅎㅎ",
+                    "utterance_id": "MDRW2100024967.1.15"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "일단 집에 팩은 쌓여 있으니 ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.16"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100024967.1.3"
+            ],
+            "category": "반응",
+            "inference_1": "화자1은 자신과 달리 건성 피부에 만족하는 화자2가 신기하다.",
+            "inference_2": "화자1은 자신처럼 피부가 건조해 괴로워하는 화자2가 반갑다.",
+            "inference_3": "화자1은 자신과 달리 건성 피부로 힘들어하는 화자2가 신기하다."
+        },
+        "output": "inference_3"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000150",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 2,
+                    "utterance": "버뜨 건성은 겨울에 화장이 굳어서 쩍쩍 갈라진다는 거ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.1"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "수분 부족 지성 증말 할말하않...",
+                    "utterance_id": "MDRW2100024967.1.2"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "남들 얼굴에 기름 닦아낼때 난 기름을 바르짘ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.3"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "다 각자의 고충이ㅜㅜㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.4"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "돈만 있음 피부과에 출근도장 찍고싶네ㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.5"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "돈있음 뭔들 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "돈 대신 부지런으로 때워야 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "부지런도 돈이 있어야ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.8"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "홈케어로 부지런해야지",
+                    "utterance_id": "MDRW2100024967.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "난 것도 못함ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "마스크팩도 자주 하니까 돈이더라ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "마스크팩은 난 돈보다 부지런함이 더 필요한 너낌 ㅋㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.12"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "돈보다 어려운게 부지런함이구나ㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.13"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "마스크팩 정도의 투자는 가넝하다는 뭐 그런 소리 ㅋㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "너 투자자였구나ㅎㅎㅎ",
+                    "utterance_id": "MDRW2100024967.1.15"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "일단 집에 팩은 쌓여 있으니 ㅋㅋㅋ",
+                    "utterance_id": "MDRW2100024967.1.16"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100024967.1.3"
+            ],
+            "category": "후행사건",
+            "inference_1": "화자2는 건성 피부 유형에 좋은 화장품을 찾아볼 것이다.",
+            "inference_2": "화자2는 지성 피부에 좋은 화장품을 알아볼 것이다.",
+            "inference_3": "화자2는 지성 피부를 잘 챙겨준다는 피부과를 알아볼 것이다."
+        },
+        "output": "inference_1"
+    },
+    {
+        "id": "nikluge-2024-대화 맥락 추론-dev-000151",
+        "input": {
+            "conversation": [
+                {
+                    "speaker": 1,
+                    "utterance": "안녕하세요",
+                    "utterance_id": "MDRW2100046793.1.1"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "학생이신가요~?",
+                    "utterance_id": "MDRW2100046793.1.2"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "직장인 입니다",
+                    "utterance_id": "MDRW2100046793.1.3"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "출근하셨어요? 너무 졸리네요 ㅠㅠ",
+                    "utterance_id": "MDRW2100046793.1.4"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "네네 피로가 쌓였네요  ㅠ",
+                    "utterance_id": "MDRW2100046793.1.5"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "오늘 금요일인데 뭐하세요~?",
+                    "utterance_id": "MDRW2100046793.1.6"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "내일 시험이 있어서 퇴근하고 책을 좀 봐야될듯요",
+                    "utterance_id": "MDRW2100046793.1.7"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "헉 바쁘게 사시네요.",
+                    "utterance_id": "MDRW2100046793.1.8"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "무슨 시험 보세요?!",
+                    "utterance_id": "MDRW2100046793.1.9"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "자격증 시험인데 그냥 나중에 대비해서 따둘려구요",
+                    "utterance_id": "MDRW2100046793.1.10"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "대단하다! 회사 다니면서 공부하기 힘들진 않으세여?",
+                    "utterance_id": "MDRW2100046793.1.11"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "솔직히 피곤하네요",
+                    "utterance_id": "MDRW2100046793.1.12"
+                },
+                {
+                    "speaker": 1,
+                    "utterance": "쉽지 않아요 ㅠ",
+                    "utterance_id": "MDRW2100046793.1.13"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "공부할 때 밥 든든히 챙겨먹고 하세요!",
+                    "utterance_id": "MDRW2100046793.1.14"
+                },
+                {
+                    "speaker": 2,
+                    "utterance": "시험 화이팅!!",
+                    "utterance_id": "MDRW2100046793.1.15"
+                }
+            ],
+            "reference_id": [
+                "MDRW2100046793.1.7"
+            ],
+            "category": "원인",
+            "inference_1": "화자1은 자격증 시험을 준비한다.",
+            "inference_2": "화자1은 자격증 시험에 합격했다.",
+            "inference_3": "화자1은 수능 시험을 준비한다."
+        },
+        "output": "inference_1"
+    }
+]
