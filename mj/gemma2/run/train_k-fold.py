@@ -6,7 +6,7 @@ from datasets import Dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, TrainingArguments
 from trl import SFTTrainer, SFTConfig
 from src.data import CustomDataset, DataCollatorForSupervisedDataset
-from peft import LoraConfig
+from peft import LoraConfig, PeftModel
 
 # Argument Parser Configuration
 parser = argparse.ArgumentParser(prog="train", description="Training about Conversational Context Inference.")
@@ -114,8 +114,15 @@ def main(args):
             train_result = trainer.train()
             val_result = trainer.evaluate()
             
-            train_losses.append(train_result['training_loss'])
-            val_losses.append(val_result['eval_loss'])
+            print(f"Train result: {train_result}")
+            print(f"Validation result: {val_result}")
+
+            # Extracting loss values based on the observed structure
+            train_loss = train_result[0] if isinstance(train_result, tuple) else train_result['training_loss']
+            val_loss = val_result[0] if isinstance(val_result, tuple) else val_result['eval_loss']
+            
+            train_losses.append(train_loss)
+            val_losses.append(val_loss)
         
         avg_train_loss = np.mean(train_losses)
         avg_val_loss = np.mean(val_losses)
