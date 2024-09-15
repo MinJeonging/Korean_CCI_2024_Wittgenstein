@@ -8,7 +8,7 @@
 |Model|Accuracy(%)|
 |:---|---:|
 |MLP-KTLim/llama-3-Korean-Bllossom-8B (without SFT)|69.7|
-|MLP-KTLim/llama-3-Korean-Bllossom-8B (with SFT)|87.1|
+|Our Model (with SFT)|95.7|
 
 ## 리포지토리 구조 (Repository Structure)
 ```
